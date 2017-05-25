@@ -8,6 +8,7 @@ import About from './components/About'
 import Param from './components/Param'
 import paramdetails from './components/paramdetails'
 import grid from './components/grid'
+import orderForm from './components/orderForm.vue'
 
 Vue.use(VueRouter)
 const routes = [
@@ -15,7 +16,8 @@ const routes = [
   { path: '/about', component: About },
   { path: '/param', component: Param },
   { path: '/paramdetails', component: paramdetails, name: 'Paramdetails' },
-  { path: '/grid', component: grid }
+  { path: '/grid', component: grid },
+  { path: '/orderForm', component : orderForm },
 ]
 
 const router = new VueRouter({

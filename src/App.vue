@@ -3,7 +3,8 @@
     <router-link v-bind:to="'/'">Home</router-link> |
     <router-link v-bind:to="'/about'">About</router-link> |
     <router-link v-bind:to="'/param'">Param Link</router-link> |
-    <router-link v-bind:to="'/grid'">People</router-link>
+    <router-link v-bind:to="'/grid'">People</router-link> |
+    <router-link v-bind:to="'/orderForm'">Order</router-link>
     <router-view></router-view>
   </div>
 </template>
